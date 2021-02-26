@@ -1,0 +1,54 @@
+/* 
+
+1. Add your custom Css styles below
+2. Place the this code in your template: 
+
+ <link href="css/custom.css" rel="stylesheet">
+
+*/
+
+.mainMenu-open #header #mainMenu { min-height: 110px !important; }
+#mainMenu:not(.menu-overlay).menu-animate nav, #mainMenu:not(.menu-overlay) > .container { text-align: center !important; }
+
+.background-grey { background-color: #f6f6f6 !important; }
+
+
+
+.btn, button.a, button.btn:hover, button.btn:focus, button.btn:not(:disabled):not(.disabled):active, button.btn:not(:disabled):not(.disabled).active, .btn:not(.close):not(.mfp-close):hover, .btn:not(.close):not(.mfp-close):focus, .btn:not(.close):not(.mfp-close):not(:disabled):not(.disabled):active, .btn:not(.close):not(.mfp-close):not(:disabled):not(.disabled).active, a.btn:not([href]):not([tabindex]):hover, a.btn:not([href]):not([tabindex]):focus, a.btn:not([href]):not([tabindex]):not(:disabled):not(.disabled):active, a.btn:not([href]):not([tabindex]):not(:disabled):not(.disabled).active {
+	color: #484848;
+	background-color: #f6f6f6;
+	border-color: #c3c3c3;
+}
+
+section.p-b-0.work { padding: 20px 0; }
+
+.grid-filter { margin: auto; }
+.grid-filter ul { text-align: center; }
+
+.about-image { margin: auto; max-width:17rem; }
+.portfolio-item .grid-item .work-description:hover { cursor: text !important; }
+
+@media (max-width: 1024px) {
+#mainMenu:not(.menu-overlay) > .container { width: 20% !important; margin: 0 auto !important; overflow: hidden !important; }
+.mainMenu-open #header #mainMenu { overflow-y: hidden; }
+.copyright-text { text-align: left !important;}
+#pageMenu-trigger { float: none; margin: 0 auto; }
+.page-menu nav { top: 50px; border-radius: 4px; float: none !important; width: 92%; left: 30px; }
+}
+
+@media screen and (max-width: 992px) { 
+.about-image { padding-bottom: 30px; }
+}
+
+@media (max-width: 767px) { 
+.page-menu nav { float: none !important; width: 89%; }
+.design-layout .design-item, .grid-2-columns .grid-item { width:100% !important; }
+}
+
+@media screen and (max-width: 481px) { 
+.page-menu nav { float: none !important; width: 88%; left:27px;}
+}
+
+@media screen and (max-width: 375px) { 
+.page-menu nav { float: none !important; width: 85%; left:25px;}
+}
